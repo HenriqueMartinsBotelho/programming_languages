@@ -11,7 +11,6 @@ class A1{
 
 class C1{
     int n1 = 20;
-
     public void Metodo1(){
         Console.WriteLine("Classe C1");
     }
