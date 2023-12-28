@@ -1,3 +1,3 @@
-module hello_world.go
+module aprendendo_go
 
 go 1.20
