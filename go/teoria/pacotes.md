@@ -20,18 +20,6 @@ Cada arquivo em um pacote Go começa com a declaração `package`, seguida pelo 
 
 Diferente de linguagens como JavaScript, que utilizam palavras-chave como `export` para definir a visibilidade de funções e variáveis, Go adota uma abordagem mais simples. Em Go, se o nome de uma função, variável ou tipo começa com uma letra maiúscula, ele é acessível de outros pacotes (público). Se começa com uma letra minúscula, é acessível apenas dentro do próprio pacote (privado).
 
-### Exemplo de Visibilidade
-
-```go
-package pacoteExemplo
-
-// Exportada: acessível fora do pacote
-func FuncaoPublica() {}
-
-// Não exportada: acessível apenas dentro do pacote
-func funcaoPrivada() {}
-```
-
 ## Importando Pacotes
 
 Você pode importar pacotes usando a declaração `import`:
@@ -61,15 +49,3 @@ Isso cria um novo arquivo `go.mod` no diretório do seu projeto, que define o no
 ## Gerenciamento de Dependências
 
 O arquivo `go.mod` gerencia as dependências do seu projeto. Quando você importa pacotes de outros módulos, Go atualiza automaticamente esse arquivo.
-
-### Exemplo de `go.mod`
-
-```plaintext
-module github.com/seunome/seuprojeto
-
-go 1.16
-
-require (
-    github.com/outraLib v1.2.3
-)
-```

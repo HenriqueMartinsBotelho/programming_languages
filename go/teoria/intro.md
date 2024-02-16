@@ -90,6 +90,7 @@ O diretório `GOPATH` é o local onde os pacotes e projetos Go são armazenados.
 
 ### Sobre pacotes
 
+Pacotes Go (abreviadamente pkg) nada mais são do que diretórios no espaço de trabalho Go que contém arquivos de origem Go ou outros pacotes Go.
 O nome de um pacote Go é o nome da pasta que o contém. A exceção é o pacote `main`, que é o pacote que contém a função `main` e é o ponto de entrada de um programa Go.
 Se dois arquivos Go estiverem na mesma pasta, eles pertencem ao mesmo pacote e podem se referenciar diretamente. Se estiverem em pastas diferentes, eles pertencem a pacotes diferentes e devem ser importados para serem referenciados.
 
@@ -110,6 +111,8 @@ b := true
 const nome string = "Henrique"
 ```
 
-### Fontes
+### nil
 
-- Livro: A linguagem de programação Go
+Em Go, é típico para funções que podem falhar retornar dois valores: o resultado da função (neste caso, o hashedPassword como uma string) e um valor de erro para indicar se a operação foi bem-sucedida ou não.
+
+Quando uma função retorna nil como o valor de erro, isso indica que a função completou sua tarefa sem erros. Se a função retornar um valor de erro diferente de nil, isso indica que algo deu errado.
