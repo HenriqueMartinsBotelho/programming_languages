@@ -11,6 +11,7 @@ Go é bem aprimorada para criação de infraestruturas como servidores web, APIs
 1. Oferece ferramentas de diagnóstico como o pprof para análise de desempenho.
 1. As strings são imutáveis e codificadas em UTF-8
 1. As funções são de primeira classe o que significa que podem ser atribuídas a variáveis e passadas como argumentos para outras funções.
+1. Não importamos arquivos mas sim pacotes que são diretórios que contém arquivos Go.
 
 Go tem poucos recursos quando comparada a outras linguagens, mas é uma linguagem simples e fácil de aprender.
 
