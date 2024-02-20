@@ -1,11 +1,9 @@
 package main
 
 import (
-	"aprendendo_go/arrays";
-	"aprendendo_go/estruturas"
+	"aprendendo_go/exercises"
 )
 
 func main() {
-	arrays.Exemplo()
-	estruturas.Estruturas()
+	exercises.Exercises()
 }	

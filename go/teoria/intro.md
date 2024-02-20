@@ -117,3 +117,29 @@ const nome string = "Henrique"
 Em Go, é típico para funções que podem falhar retornar dois valores: o resultado da função (neste caso, o hashedPassword como uma string) e um valor de erro para indicar se a operação foi bem-sucedida ou não.
 
 Quando uma função retorna nil como o valor de erro, isso indica que a função completou sua tarefa sem erros. Se a função retornar um valor de erro diferente de nil, isso indica que algo deu errado.
+
+###
+
+A linguagem de programação Go, também conhecida como Golang, foi projetada pela Google para ser eficiente, legível e, acima de tudo, simples. Go é uma linguagem moderna que combina a eficiência de compilação e a segurança de tipos de linguagens estaticamente tipadas como C e C++ com a facilidade de uso de linguagens dinâmicas como Python e JavaScript. Aqui estão algumas das características de Go em termos de paradigmas de programação:
+
+1. **Fortemente Tipada**: Go é uma linguagem fortemente tipada, o que significa que o tipo de cada variável é conhecido em tempo de compilação. Isso ajuda a evitar muitos erros em tempo de execução relacionados a operações inválidas entre tipos incompatíveis.
+
+2. **Compilada**: Go é uma linguagem compilada, o que significa que o código fonte é transformado em código de máquina que é diretamente executado pelo sistema operacional. Isso contribui para a eficiência e performance do código Go.
+
+3. **Concorrência como Primeira Classe**: Uma das características mais notáveis de Go é seu suporte nativo à concorrência. Go introduz goroutines, que são funções que podem ser executadas simultaneamente, e canais, que permitem a comunicação segura entre goroutines. Isso torna a programação concorrente mais acessível e menos propensa a erros.
+
+4. **Sintaxe Simples e Minimalista**: Go foi projetada para ser simples e fácil de ler. Ela elimina muitos dos construtos desnecessários encontrados em outras linguagens, como parênteses em instruções condicionais (if, for) e pontos e vírgulas no final de cada linha, exceto quando são necessários para separar declarações na mesma linha.
+
+5. **Garbage Collection**: Go possui coleta de lixo automática, o que significa que o programador não precisa gerenciar manualmente a alocação e desalocação de memória. Isso reduz a possibilidade de vazamentos de memória e outros erros relacionados à gestão de memória.
+
+6. **Pacotes e Módulos para Gerenciamento de Dependências**: Go utiliza um sistema de pacotes para organizar o código e um sistema de módulos para gerenciar dependências. Isso facilita a manutenção de grandes bases de código e a colaboração entre desenvolvedores.
+
+7. **Interface e Tipos Embutidos**: Go suporta interfaces e tipos embutidos (embedding) para facilitar a reutilização de código e a implementação de polimorfismo. Isso permite uma forma flexível de composição de objetos sem necessitar de herança.
+
+8. **Ferramentas Integradas**: Go vem com um conjunto rico de ferramentas integradas para formatação de código, teste, e gerenciamento de pacotes, o que melhora a eficiência do desenvolvimento e a qualidade do código.
+
+9. **Sem Herança de Classes**: Ao contrário de muitas outras linguagens orientadas a objetos, Go não suporta herança de classes. Em vez disso, ela promove a composição de interfaces e a reutilização de código através de tipos embutidos.
+
+10. **Tipos e Métodos**: Em Go, tipos podem ter métodos associados. Isso permite que funções sejam chamadas no contexto de um tipo específico, facilitando a organização do código e a implementação de comportamentos específicos de tipos.
+
+Essas características fazem de Go uma linguagem poderosa e flexível, adequada para uma ampla gama de aplicações, desde sistemas de backend e serviços de nuvem até ferramentas de linha de comando e desenvolvimento de sistemas distribuídos.
