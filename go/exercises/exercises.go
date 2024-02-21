@@ -1,5 +1,5 @@
 package exercises
 
 func Exercises() {
-	Ex3(5)
+	Ex4()
 }
