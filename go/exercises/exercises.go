@@ -1,5 +1,5 @@
 package exercises
 
 func Exercises() {
-	Factorial(5)
+	Ex3(5)
 }
