@@ -37,6 +37,8 @@ Goroutines: Um modelo de concorrência oferecido pelo Go. Goroutines são muito 
 
 ### O sistema de tipos
 
+Em GO é importante saber trabalhar bem com ARQUIVOS e entender profundamente os TIPOS DE DADOS e suas operações.
+
 A linguagem Go apresenta um sistema de tipos projetado para prevenir a maioria dos erros comuns, sem ser excessivamente complexo como em algumas outras linguagens. Seu sistema de tipos é estático, o que significa que o tipo de cada variável é determinado em tempo de compilação. Além disso, Go tem um sistema de tipos forte, impedindo operações inválidas entre tipos diferentes. Vale ressaltar que, enquanto Go oferece um robusto sistema de tipos, os programadores desta linguagem não exploram a tipagem da mesma forma intensa que os programadores de Haskell fazem ao expressar propriedades de segurança e provas baseadas em tipos.
 
 ### Hello World e variáveis de ambiente

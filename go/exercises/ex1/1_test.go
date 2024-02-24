@@ -1,4 +1,4 @@
-package exercises
+package ex1
 
 import (
 	"testing"

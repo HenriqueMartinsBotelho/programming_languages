@@ -1,5 +1,9 @@
 package exercises
 
+import (
+	"aprendendo_go/exercises/ex4"
+)
+
 func Exercises() {
-	Ex4()
+	ex4.Ex4()
 }

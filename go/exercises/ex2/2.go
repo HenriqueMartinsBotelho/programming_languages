@@ -1,4 +1,4 @@
-package exercises
+package ex2
 
 func Factorial(number int) int {
 	if number == 1{

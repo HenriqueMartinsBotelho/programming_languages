@@ -1,4 +1,4 @@
-package exercises
+package ex3
 
 
 func Ex3(number int) map[int]int{

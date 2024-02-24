@@ -1,4 +1,4 @@
-package exercises
+package ex3
 
 import "testing"
 

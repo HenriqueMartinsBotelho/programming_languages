@@ -1,4 +1,4 @@
-package exercises
+package ex4
 
 import (
 	"bufio"
