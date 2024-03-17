@@ -1,10 +1,11 @@
 package main
 
-import "aprendendo_go/exercises/ex9"
+import (
+	"aprendendo_go/memoria"
+)
 
 func main() {
 
-
-	ex9.Ex9()
-
+	memoria.Aprendendo_alocacao()
 }
+

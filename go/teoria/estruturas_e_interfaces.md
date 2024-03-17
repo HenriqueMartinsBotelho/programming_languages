@@ -1,6 +1,3 @@
-O trecho aprimorado sobre as estruturas (structs) em Go e um adicional sobre interfaces proporciona uma visão mais clara e detalhada sobre a organização e utilização desses elementos na linguagem de programação Go. Aqui está a versão aprimorada do texto, incluindo uma seção sobre interfaces para complementar o entendimento:
-
----
 
 # Estruturas e Interfaces em Go
 
