@@ -1,11 +1,9 @@
 package main
 
 import (
-	"aprendendo_go/memoria"
+	"aprendendo_go/interfaces"
 )
 
 func main() {
-
-	memoria.Aprendendo_alocacao()
+	interfaces.TestCode()
 }
-

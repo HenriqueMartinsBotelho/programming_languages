@@ -1,5 +1,7 @@
 package memoria
 
+import "fmt"
+
 // Neste exemplo, new(int) aloca memória para um inteiro,
 //inicializa-o a 0 (o valor zero para inteiros) e retorna um ponteiro para a memória alocada.
 
