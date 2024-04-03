@@ -77,3 +77,9 @@ func main() {
 ```
 
 Neste exemplo, fazemos requisições HTTP concorrentes a três URLs diferentes usando go routines. Isso ilustra como as go routines podem ser usadas para realizar tarefas I/O-bound de forma eficiente.
+
+---
+
+## Canais
+
+Canais são uma maneira de passar dados entre go routines. Isso pode ser usado para sincronizar uma go routine com outra, ou para passar dados de uma go routine para outra.
