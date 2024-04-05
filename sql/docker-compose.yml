@@ -2,6 +2,7 @@ version: "3.8"
 services:
   postgres:
     image: postgres
+    container_name: sql_exercises
     environment:
       POSTGRES_DB: exercises
       POSTGRES_USER: root
