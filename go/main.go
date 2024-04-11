@@ -1,9 +1,9 @@
 package main
 
 import (
-	"aprendendo_go/interfaces"
+	"aprendendo_go/concorrencia"
 )
 
 func main() {
-	interfaces.TestCode()
+	concorrencia.GrupoDeEsperaExemplo()
 }
