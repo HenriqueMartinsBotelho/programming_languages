@@ -1,11 +1,29 @@
-# Sobre este repositório
+# Programming Languages Theory & Exercises
 
-Esse repositório tem como objetivo apresentar meus estudos em várias linguagens de programação.
+This repository is dedicated to showcasing my journey of learning and exploring various programming languages. It contains theory, exercises, and solutions that span across multiple languages, from beginner to advanced levels. The goal is to build a comprehensive collection of knowledge and practice materials that reflect my studies and understanding of these languages.
 
-# Meu Livro
+## 📚 **Contents**
 
-Aqui está o link para o meu livro de paradigmas de programção: ![https://henriquebotelho.gitbook.io/paradigmas-de-programacao/](https://henriquebotelho.gitbook.io/paradigmas-de-programacao/)
+- **Theory**: Detailed notes and explanations on key concepts in each programming language.
+- **Exercises**: Practice problems with solutions to help solidify understanding.
+- **Projects**: Small-scale projects to apply concepts in real-world scenarios.
 
-# A importância de estudar várias linguagens
+## 🚀 **Languages Covered**
 
-Aprender uma linguagem de programação é como aprender um novo idioma. Cada linguagem tem sua própria sintaxe, semântica e paradigma. Aprender uma nova linguagem de programação é uma ótima maneira de expandir seu conhecimento e habilidades de programação.
+- JavaScript
+- TypeScript
+- Python
+- Java
+- C++
+- Rust
+- Go
+- Lua
+- Swift
+- More to come...
+
+## 🔥 **Goals**
+
+- Explore and understand the fundamentals and advanced topics of multiple programming languages.
+- Build problem-solving skills through exercises and coding challenges.
+- Apply learned concepts in mini-projects.
+- Document my progress and growth as a programmer.
